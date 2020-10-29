@@ -1,14 +1,22 @@
 import React from 'react';
+import About from './About';
 import Education from './Education';
-import ProExperience from './ProExperience';
-import ResumeHeader from './ResumeHeader';
+import Experience from './Experience';
+import Header from './Header';
 import Technical from './Technical';
 
 const Resume = () => (
   <>
-    <ResumeHeader />
+    <Header />
+    <About />
+    <div className='bg-white black-80 tc pv4 avenir'>
+      <h1 className='mt2 mb0 baskerville i fw1 f1'>Technical Skills</h1>
+    </div>
     <Technical />
-    <ProExperience />
+    <div className='bg-white black-80 tc pv4 avenir'>
+      <h1 className='mt2 mb0 baskerville i fw1 f1'>Professional Experience</h1>
+    </div>
+    <Experience />
     <Education />
   </>
 );

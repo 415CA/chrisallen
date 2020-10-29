@@ -1,10 +1,10 @@
 import React from 'react';
 import Resume from '../../Components/Resume';
 
-const ResumePage = () => (
+const ExperiencePage = () => (
   <>
     <Resume />
   </>
 );
 
-export default ResumePage;
+export default ExperiencePage;

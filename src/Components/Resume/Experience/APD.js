@@ -2,12 +2,12 @@ import React from 'react';
 
 const APD = () => (
   <>
-    <article className='cf ph3 ph5-ns pv5'>
+    <article className='cf ph3 ph5-ns pv3'>
       <header className='fn fl-ns w-50-ns pr4-ns'>
-        <h1 className='f2 lh-title fw9 mb3 mt0 pt3 bt bw2'>
+        <h1 className='f3 lh-title fw9 mb3 mt0 pt3 bt bw2'>
           Audio Precision Design
         </h1>
-        <h2 className='f3 mid-gray lh-title'>
+        <h2 className='f4 mid-gray lh-title'>
           Marketing & Business Development Consultant
         </h2>
         <time className='f6 ttu tracked gray'>
@@ -15,19 +15,21 @@ const APD = () => (
         </time>
       </header>
       <div className='fn fl-ns w-50-ns'>
-        <p className='f5 lh-copy measure mt0-ns'>
-          Crafted deal strategies and led negotiations to ensure compliance
-          with company licensing policies and procedures. Managed master sync
-          database for all contracts, invoices, and royalty distributions.
-          Provided reports to senior management on account activity, new
-          business opportunities, and earning reports Oversaw music
-          operations. including creative direction, production, database
-          management, and playlist curation. Fostered relationships with
-          established and emerging advertising agencies to secure partnership
-          opportunities.
-        </p>
-        <p className='f5 lh-copy measure'>
-          <b>Notable campaigns:</b>
+        <ul className='list pl0'>
+          <li className='pv1'>
+            Crafted deal strategies and led negotiations to ensure compliance
+            with company licensing policies and procedures.
+          </li>
+          <li className='pv1'>
+            Managed master sync database for all contracts, invoices, and royalty distributions.
+          </li>
+          <li className='pv1'>
+            Oversaw music operations. including creative direction, production, asset database
+            management, and playlist curation.
+          </li>
+        </ul>
+        <p className='f5 lh-copy'>
+          <b>Notable Campaigns:</b>
           {' '}
           Bumblebee, Logan, Kingsman The Golden
           Circle, X-Men: Apocalypse

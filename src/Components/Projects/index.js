@@ -1,4 +1,4 @@
-import { HomepageTech } from './Languages';
+import { HomepageTech, ResumeTech } from './Languages';
 import Projects from './List';
 
-export { Projects, HomepageTech };
+export { Projects, HomepageTech, ResumeTech };

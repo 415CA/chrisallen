@@ -59,8 +59,8 @@ const NavigationAuth = ({ authUser }) => (
 );
 
 const NavigationNonAuth = () => (
-  <header className='bg-white-70 dt--fixed w-100 ph5-l'>
-    <nav className='db dt-l w-100 border-box pa3 ph5-l'>
+  <header className='bg-white-100 dt--fixed w-100 ph5-l'>
+    <nav className='db dt-l w-100 border-box pa1 ph5-l'>
       <a
         className='db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l'
         title='Home'
@@ -81,6 +81,12 @@ const NavigationNonAuth = () => (
         </Link>
         <Link
           className='link dim black hover-dark-gray f6 f5-l dib mr3 mr4-l'
+          to={ROUTES.EXPERIENCE}
+        >
+          Experience
+        </Link>
+        <Link
+          className='link dim black hover-dark-gray f6 f5-l dib mr3 mr4-l'
           to={ROUTES.PROJECTS}
         >
           Projects
@@ -90,12 +96,6 @@ const NavigationNonAuth = () => (
           to={ROUTES.CAMPAIGNS}
         >
           Campaigns
-        </Link>
-        <Link
-          className='link dim black hover-dark-gray f6 f5-l dib mr3 mr4-l'
-          to={ROUTES.RESUME}
-        >
-          Resume
         </Link>
         <Link
           className='link dim black hover-dark-gray f6 f5-l dib mr3 mr4-l'

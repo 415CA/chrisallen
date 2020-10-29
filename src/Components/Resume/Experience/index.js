@@ -1,3 +1,4 @@
+import React from 'react';
 import APD from './APD';
 import Edge from './Edge';
 import JMTalent from './JMTalent';
@@ -6,6 +7,16 @@ import Supergravity from './Supergravity';
 import TWC from './TWC';
 import Universal from './Universal';
 
-export {
-  APD, Edge, Universal, Supergravity, Soundscapes, JMTalent, TWC,
-};
+const Experience = () => (
+  <>
+    <APD />
+    <Edge />
+    <Universal />
+    <Supergravity />
+    <Soundscapes />
+    <JMTalent />
+    <TWC />
+  </>
+);
+
+export default Experience;
