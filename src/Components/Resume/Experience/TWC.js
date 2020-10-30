@@ -3,7 +3,7 @@ import React from 'react';
 const Soundscapes = () => (
   <>
     <article className='cf ph3 ph5-ns pv3'>
-      <header className='fn fl-ns w-50-ns pr4-ns'>
+      <header className='fn fl-ns w-40-ns pr4-ns'>
         <h1 className='f3 lh-title fw9 mb3 mt0 pt3 bt bw2'>
           The Weinstein Company
         </h1>
@@ -37,7 +37,7 @@ const Soundscapes = () => (
           <b>Notable Campaigns:</b>
           {' '}
           Inglourious Basterds, The Reader, Vicky
-          Cristina Barcelona, A Single Man, Sicko, and I’m Not There
+          Cristina Barcelona, A Single Man, Sicko, I’m Not There
         </p>
       </div>
     </article>
