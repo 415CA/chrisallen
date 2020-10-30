@@ -1,5 +1,4 @@
 import React from 'react';
-import { HomepageTech } from '../../Projects/index';
 
 const About = () => (
   <div>
