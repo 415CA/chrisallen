@@ -10,7 +10,7 @@ const Contact = () => (
           <header className='white'>
             <h1 className='f2 f-headline-l fw1 white'>Chris Allen</h1>
           </header>
-          <h3 className='f2 fw1 ttu tracked mb2 lh-title'>Get In Touch</h3>
+          <h3 className='f2 fw1 tracked mb2 lh-title'>Get In Touch</h3>
           <Social color='#FFFFFF' size={50} />
         </div>
       </div>
