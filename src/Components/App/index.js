@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import * as ROUTES from '../../Constants/routes';
 import ContactPage from '../../Pages/Contact';
-import Campaigns from '../../Pages/DemoReel';
+import Campaigns from '../../Pages/Campaigns';
 import HomePage from '../../Pages/Home';
 import LandingPage from '../../Pages/Landing';
 import NoMatchPage from '../../Pages/NoMatch';
