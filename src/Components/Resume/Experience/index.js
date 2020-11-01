@@ -9,6 +9,9 @@ import Universal from './Universal';
 
 const Experience = () => (
   <>
+    <div className='bg-white black-80 tc pv4 avenir'>
+      <h1 className='mt2 mb0 helvetica i fw1 f1'>Professional Experience</h1>
+    </div>
     <APD />
     <Edge />
     <Universal />

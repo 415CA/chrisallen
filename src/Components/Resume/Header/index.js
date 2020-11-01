@@ -1,15 +1,14 @@
 import React from 'react';
 import Social from '../../Social';
+import About from '../About';
 
 const Header = () => (
   <>
-    <header className='bg-white black-80 tc pv4 avenir'>
-      <h1 className='mt2 mb0 baskerville i fw1 f1'>Chris Allen</h1>
-      {/* <h2 className='mt2 mb0 f6 fw4 ttu tracked'>
-        Software Engineer | Marketing | Media Licensing
-      </h2> */}
+    <header className='bg-white black-80 tc pv3 helvetica ph3 ph5-ns'>
+      <h1 className='mt2 mb2 helvetica fw1 f1'>Chris Allen</h1>
       <Social color='#000000' size={30} />
-      {/* <HomepageTech color='black' /> */}
+      <h1 className='mt2 mb2 helvetica fw2 f3 tracked'>Software Engineering / Marketing / Media Licensing</h1>
+      <About />
     </header>
   </>
 );

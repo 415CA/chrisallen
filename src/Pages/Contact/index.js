@@ -10,10 +10,8 @@ const Contact = () => (
           <header className='white'>
             <h1 className='f2 f-headline-l fw1 white'>Chris Allen</h1>
           </header>
+          <h3 className='f2 fw1 ttu tracked mb2 lh-title'>Get In Touch</h3>
           <Social color='#FFFFFF' size={50} />
-          <h3 className='f4 fw1 ttu tracked mb2 lh-title'>Full Stack Web Developer</h3>
-          <h3 className='f4 fw1 ttu tracked mb2 lh-title'>Entertainment Marketing | Media Licensing | Business Development</h3>
-          <h3 className='f4 fw1 ttu tracked mb2 lh-title'>chrisallen415@gmail.com</h3>
         </div>
       </div>
     </article>

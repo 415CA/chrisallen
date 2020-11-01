@@ -12,7 +12,7 @@ const SignInPage = () => (
     <div className='mt3'>
       <SignInForm />
     </div>
-    <br/>
+    <br />
     <SignInGoogle />
     <div className='lh-copy mt3'>
       <PasswordForgetLink />
@@ -86,9 +86,9 @@ class SignInFormBase extends Component {
           placeholder='Password'
           className='pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100'
         />
-        <br/>
+        <br />
         <div className=''>
-          <button disabled={isInvalid} type='submit' class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100">
+          <button disabled={isInvalid} type='submit' className='pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100'>
             Sign In
           </button>
         </div>
@@ -135,7 +135,7 @@ class SignInGoogleBase extends Component {
 
     return (
       <form onSubmit={this.onSubmit}>
-        <button type='submit' className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100">Sign In with Google</button>
+        <button type='submit' className='pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100'>Sign In with Google</button>
 
         {error && <p>{error.message}</p>}
       </form>
