@@ -200,7 +200,7 @@ const IconList = () => (
         <div className='db tc'>
           <Adobephotoshop title='Adobephotoshop' color='#31A8FF' size={24} />
           <dl className='mt2 f6 lh-copy'>
-            <dd className='ml0 black  w-100'>Adobe Photoshop</dd>
+            <dd className='ml0 black  w-100'>Photoshop</dd>
           </dl>
         </div>
       </div>
@@ -208,7 +208,7 @@ const IconList = () => (
         <div className='db tc'>
           <Adobeillustrator title='Adobephotoshop' color='#FF9A00' size={24} />
           <dl className='mt2 f6 lh-copy'>
-            <dd className='ml0 black  w-100'>Adobe Illustrator</dd>
+            <dd className='ml0 black  w-100'>Illustrator</dd>
           </dl>
         </div>
       </div>
@@ -216,7 +216,7 @@ const IconList = () => (
         <div className='db tc'>
           <Adobecreativecloud title='Adobecreativecloud' color='#DA1F26' size={24} />
           <dl className='mt2 f6 lh-copy'>
-            <dd className='ml0 black  w-100'>Adobe Creative Cloud</dd>
+            <dd className='ml0 black  w-100'>Creative Cloud</dd>
           </dl>
         </div>
       </div>
@@ -224,7 +224,7 @@ const IconList = () => (
         <div className='db tc'>
           <Adobepremierepro title='Adobepremierepro' color='#EA77FF' size={24} />
           <dl className='mt2 f6 lh-copy'>
-            <dd className='ml0 black  w-100'>Adobe Premier Pro</dd>
+            <dd className='ml0 black  w-100'>Premier Pro</dd>
           </dl>
         </div>
       </div>

@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => (
   <>
     <div className='cf center ph3 ph5-ns pv3'>
-      <p className='lh-copy helvetica tj fw3 center f5 w-50-l w-third-ns'>
+      <p className='lh-copy helvetica tj fw3 center f5'>
         New York City based Software Engineer experienced in JavaScript, React,
         Redux, Ruby on Rails, and SQL. Transitioned to Software Engineering after
         a 10+ year career as an entertainment industry executive within the areas
