@@ -2,20 +2,20 @@ import React from 'react';
 
 const JMTalent = () => (
   <>
-    <article className='cf ph3 ph5-ns pv3'>
+    <article className='cf ph3 ph5-ns pv3 helvetica'>
       <header className='fn fl-ns w-40-ns pr4-ns'>
-        <h1 className='f3 lh-title fw9 mb3 mt0 pt3 bt bw2'>
+        <h1 className='f3 lh-title fw4 mt0 pt3 bt bw2 helvetica'>
           Jason Marks Talent Management
         </h1>
-        <h2 className='f4 mid-gray lh-title'>
+        <h2 className='f4 mid-gray lh-title fw4 helvetica'>
           Director, West Coast Operations
         </h2>
-        <time className='f6 ttu tracked gray'>
+        <time className='f6 ttu tracked gray fw4 helvetica'>
           Los Angeles, CA | February 2010 – December 2014
         </time>
       </header>
       <div className='fn fl-ns w-50-ns'>
-        <ul className='list pl0'>
+        <ul className='list pl0 fw3'>
           <li className='pv1'>
             Managed operations, client services, sales, and business development
             for West Coast accounts and talent.
@@ -30,7 +30,7 @@ const JMTalent = () => (
             and public relations initiatives.
           </li>
         </ul>
-        <p className='f5 lh-copy'>
+        <p className='f5 lh-copy fw3'>
           <b>Notable Clients:</b>
           {' '}
           21st Century Fox, Disney, Marvel, Netflix,

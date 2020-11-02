@@ -1,13 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const Soundscapes = () => {
-  return (
-    <div>
-      https://source.unsplash.com/random
-      https://source.unsplash.com/random
-      https://source.unsplash.com/random
-    </div>
-  )
-}
+const Soundscapes = () => (
+  <div>
+    https://source.unsplash.com/random
+    https://source.unsplash.com/random
+    https://source.unsplash.com/random
+  </div>
+);
 
-export default Soundscapes
+export default Soundscapes;

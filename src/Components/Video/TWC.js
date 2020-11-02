@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const TWC = () => {
-  return (
-    <div>
-      TWC
-    </div>
-  )
-}
+const TWC = () => (
+  <div>
+    TWC
+  </div>
+);
 
-export default TWC
+export default TWC;

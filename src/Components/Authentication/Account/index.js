@@ -6,9 +6,8 @@ import { PasswordForgetForm } from '../PasswordForget';
 import {
   AuthUserContext,
   withAuthorization,
-  withEmailVerification
+  withEmailVerification,
 } from '../Session';
-
 
 const SIGN_IN_METHODS = [
   {

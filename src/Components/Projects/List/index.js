@@ -9,17 +9,17 @@ import {
 
 const Projects = () => (
   <>
-    <section className='mw7 center'>
-      <h2 className='helvetica ph3 ph0-l'>Projects</h2>
+    <section className='mw7 center mt4'>
+      <h2 className='helvetica ph3 ph0-l fw4'>Projects</h2>
       <article className='pv4 bt bb b--black-10 ph3 ph0-l'>
         <div className='flex flex-column flex-row-ns'>
           <div className='w-100 w-60-ns pr3-ns order-2 order-1-ns'>
-            <h1 className='f3 helvetica mt0 lh-title'>Turismo</h1>
-            <p className='f6 f5-l lh-copy helvetica'>
+            <h1 className='f3 helvetica mt0 lh-title fw4'>Turismo</h1>
+            <p className='f6 f5-l lh-copy helvetica fw3'>
               Travel discovery app providing information about
               landmarks, experiences, and restaurants for destinations around the globe
             </p>
-            <p className='f6 f5-l lh-copy mv0 helvetica'>APIs: Currents, Google Maps, Michelin Guide, NewsAPI, NY Times Travel, OpenWeatherMap, Unsplash, Yelp Fusion </p>
+            <p className='f6 f5-l lh-copy mv0 helvetica fw3'>APIs: Currents, Google Maps, Michelin Guide, NewsAPI, NY Times Travel, OpenWeatherMap, Unsplash, Yelp Fusion </p>
             <br />
             <div><Turismo /></div>
           </div>
@@ -41,12 +41,12 @@ const Projects = () => (
       <article className='pv4 bt bb b--black-10 ph3 ph0-l'>
         <div className='flex flex-column flex-row-ns'>
           <div className='w-100 w-60-ns pr3-ns order-2 order-1-ns'>
-            <h1 className='f3 helvetica mt0 lh-title'>Mediatrac</h1>
-            <p className='f6 f5-l lh-copy helvetica'>
+            <h1 className='f3 helvetica mt0 lh-title fw4'>Mediatrac</h1>
+            <p className='f6 f5-l lh-copy helvetica fw3'>
               Searchable film database with cast and crew info,
               plot summaries, User reviews, NY Times reviews, and recommendations
             </p>
-            <p className='f6 f5-l lh-copy mv0 helvetica'>
+            <p className='f6 f5-l lh-copy mv0 helvetica fw3'>
               API: The Movie Database
             </p>
             <br />
@@ -70,12 +70,12 @@ const Projects = () => (
       <article className='pv4 bt bb b--black-10 ph3 ph0-l'>
         <div className='flex flex-column flex-row-ns'>
           <div className='w-100 w-60-ns pr3-ns order-2 order-1-ns'>
-            <h1 className='f3 helvetica mt0 lh-title'>Read</h1>
-            <p className='f6 f5-l lh-copy helvetica'>
+            <h1 className='f3 helvetica mt0 lh-title fw4'>Read</h1>
+            <p className='f6 f5-l lh-copy helvetica fw3'>
               Book cataloging website that allows Users to search for
               titles, generate a personal library, create a list of page annotations
             </p>
-            <p className='f6 f5-l lh-copy mv0 helvetica'>
+            <p className='f6 f5-l lh-copy mv0 helvetica fw3'>
               API: Google Books
             </p>
             <br />
@@ -99,8 +99,8 @@ const Projects = () => (
       <article className='pv4 bt bb b--black-10 ph3 ph0-l'>
         <div className='flex flex-column flex-row-ns'>
           <div className='w-100 w-60-ns pr3-ns order-2 order-1-ns'>
-            <h1 className='f3 helvetica mt0 lh-title'>Session</h1>
-            <p className='f6 f5-l lh-copy helvetica'>
+            <h1 className='f3 helvetica mt0 lh-title fw4'>Session</h1>
+            <p className='f6 f5-l lh-copy helvetica fw3'>
               A social media app and discovery app that connects you with local skaters
               and helps you find the best skate spots, parks, and shops in your area
             </p>

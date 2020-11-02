@@ -1,11 +1,10 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { compose } from 'recompose';
-
-import { withAuthorization, withEmailVerification } from '../Session';
-import { UserList, UserItem } from '../Users';
 import * as ROLES from '../../../Constants/roles';
 import * as ROUTES from '../../../Constants/routes';
+import { withAuthorization, withEmailVerification } from '../Session';
+import { UserItem, UserList } from '../Users';
 
 const AdminPage = () => (
   <div>
@@ -23,5 +22,5 @@ const condition = (authUser) => authUser && !!authUser.roles[ROLES.ADMIN];
 
 export default compose(
   withEmailVerification,
-  withAuthorization(condition)
+  withAuthorization(condition),
 )(AdminPage);

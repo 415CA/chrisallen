@@ -15,7 +15,7 @@ import React from 'react';
 const Turismo = () => (
   <div className='mw9 center '>
     <table className='f6 w-100 mw8 center' cellSpacing='0'>
-      <tbody className='lh-copy'>
+      <tbody className='lh-copy helvetica fw3'>
         <tr className=''>
           <td className='f6 f5-l lh-copy tl v-mid pv1'>Technologies:</td>
           <td className='dib ml0 ph1'><Javascript title='Javascript' color='#F7DF1E' size={17} /></td>
