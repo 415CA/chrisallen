@@ -52,7 +52,7 @@ const Projects = () => (
             <br />
             <div><Mediatrac /></div>
           </div>
-          <div className='pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns'>
+          <div className='pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-50-ns'>
             <img src='https://images.unsplash.com/photo-1562329265-95a6d7a83440?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1564&q=80' className='db' alt='theater' />
             <div>
               <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://github.com/415CA/mediatrac-frontend' title='GitHub'>
@@ -81,7 +81,7 @@ const Projects = () => (
             <br />
             <div><Read /></div>
           </div>
-          <div className='pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns'>
+          <div className='pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-50-ns'>
             <img src='https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2053&q=80' className='db' alt='library' />
             <div>
               <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://github.com/415CA/read-frontend' title='GitHub'>
@@ -106,7 +106,7 @@ const Projects = () => (
             </p>
             <div><Session /></div>
           </div>
-          <div className='pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns'>
+          <div className='pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-50-ns'>
             <img src='https://images.unsplash.com/photo-1536318431364-5cc762cfc8ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80' className='db' alt='skateboard' />
             <div>
               <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://github.com/415CA/session' title='GitHub'>

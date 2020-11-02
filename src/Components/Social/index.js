@@ -3,8 +3,7 @@ import {
 
   Gmail,
 
-  Linkedin,
-  Medium,
+  Linkedin
 } from '@icons-pack/react-simple-icons';
 import React from 'react';
 
@@ -19,9 +18,6 @@ const Social = ({ color, size }) => (
       </a>
       <a href='mailto:chrisallen415@gmail.com' className='no-underline black bg-animate grow hover-white inline-flex items-center ma2 tc br2 pa2'>
         <Gmail title='Gmail' color={color} size={size} />
-      </a>
-      <a href='https://medium.com/@chrisallen415' className='no-underline black bg-animate grow hover-white inline-flex items-center ma2 tc br2 pa2'>
-        <Medium title='Medium' color={color} size={size} />
       </a>
     </div>
   </>
