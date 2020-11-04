@@ -1,3 +1,4 @@
+import { Googlechrome } from '@icons-pack/react-simple-icons';
 import React from 'react';
 
 const APD = () => (
@@ -35,6 +36,7 @@ const APD = () => (
           Circle, X-Men: Apocalypse
         </p>
       </div>
+
     </article>
   </>
 );

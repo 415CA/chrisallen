@@ -26,11 +26,11 @@ const Projects = () => (
           <div className='pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-50-ns'>
             <img src='https://images.unsplash.com/photo-1546530967-21531b891dd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80' className='db' alt='Rome' />
             <div>
-              <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://github.com/415CA/turismo-frontend' title='GitHub'>
+              <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://github.com/415CA/turismo-frontend' title='GitHub' >
                 <Github size={30} />
                 <span className='f6 ml3 pr2'>GitHub</span>
               </a>
-              <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://turismo-travel.herokuapp.com' title='Google Chrome Icon'>
+              <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://turismo-travel.herokuapp.com' title='Google Chrome Icon' target='_blank 'rel='noopener'>
                 <Googlechrome size={30} />
                 <span className='f6 ml3 pr2'>Live Demo</span>
               </a>
@@ -55,11 +55,11 @@ const Projects = () => (
           <div className='pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-50-ns'>
             <img src='https://images.unsplash.com/photo-1562329265-95a6d7a83440?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1564&q=80' className='db' alt='theater' />
             <div>
-              <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://github.com/415CA/mediatrac-frontend' title='GitHub'>
+              <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://github.com/415CA/mediatrac-frontend' title='GitHub' target='_blank 'rel='noopener'>
                 <Github size={30} />
                 <span className='f6 ml3 pr2'>GitHub</span>
               </a>
-              <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://mediatrac-app.herokuapp.com/' title='Google Chrome Icon'>
+              <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://mediatrac-app.herokuapp.com/' title='Google Chrome Icon' target='_blank 'rel='noopener'>
                 <Googlechrome size={30} />
                 <span className='f6 ml3 pr2'>Live Demo</span>
               </a>
@@ -84,11 +84,11 @@ const Projects = () => (
           <div className='pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-50-ns'>
             <img src='https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2053&q=80' className='db' alt='library' />
             <div>
-              <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://github.com/415CA/read-frontend' title='GitHub'>
+              <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://github.com/415CA/read-frontend' title='GitHub' target='_blank 'rel='noopener'>
                 <Github size={30} />
                 <span className='f6 ml3 pr2'>GitHub</span>
               </a>
-              <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://read-js-app.herokuapp.com' title='Google Chrome Icon'>
+              <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://read-js-app.herokuapp.com' title='Google Chrome Icon' target='_blank 'rel='noopener'>
                 <Googlechrome size={30} />
                 <span className='f6 ml3 pr2'>Live Demo</span>
               </a>
@@ -109,11 +109,11 @@ const Projects = () => (
           <div className='pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-50-ns'>
             <img src='https://images.unsplash.com/photo-1536318431364-5cc762cfc8ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80' className='db' alt='skateboard' />
             <div>
-              <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://github.com/415CA/session' title='GitHub'>
+              <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://github.com/415CA/session' title='GitHub' target='_blank 'rel='noopener'>
                 <Github size={30} />
                 <span className='f6 ml3 pr2'>GitHub</span>
               </a>
-              <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://session-nyc.herokuapp.com/' title='Google Chrome Icon'>
+              <a className='no-underline black bg-animate bg-white grow hover-gray inline-flex items-center ma2 tc br2 pa2' href='https://session-nyc.herokuapp.com/' title='Google Chrome Icon' target='_blank 'rel='noopener'>
                 <Googlechrome size={30} />
                 <span className='f6 ml3 pr2'>Live Demo</span>
               </a>

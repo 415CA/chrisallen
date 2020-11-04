@@ -13,7 +13,7 @@ const Navigation = () => (
 );
 
 const NavigationAuth = ({ authUser }) => (
-  <nav className='db dt-l w-100 border-box pa3 ph5-l'>
+  <nav className="db dt-l w-100 border-box pa3 ph5-l">
     <a
       className='db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l'
       title='Home'
@@ -25,7 +25,7 @@ const NavigationAuth = ({ authUser }) => (
         alt='Chris Allen'
       />
     </a>
-    <div className='db dtc-l v-mid w-100 w-75-l tc tr-l'>
+    <div className='db dtc-l v-mid w-100 w-75-l tc tr-l helvetica'>
       <Link
         className='link dim dark-gray f6 f5-l dib mr3 mr4-l'
         to={ROUTES.HOME}
@@ -59,8 +59,7 @@ const NavigationAuth = ({ authUser }) => (
 );
 
 const NavigationNonAuth = () => (
-  <header className='bg-white-100 dt--fixed w-100 ph5-l'>
-    <nav className='db dt-l w-100 border-box pa1 ph5-l'>
+    <nav className="db dt-l w-100 border-box pa3 ph5-l">
       <a
         className='db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l'
         title='Home'
@@ -68,44 +67,43 @@ const NavigationNonAuth = () => (
       >
         <img
           src={Logo}
-          className='h3 w3 dib'
+          className='dib w3 h3'
           alt='Chris Allen'
         />
       </a>
       <div className='db dtc-l v-mid w-100 w-75-l tc tr-l helvetica'>
         <Link
-          className='link dim black hover-dark-gray f6 f5-l dib mr3 mr4-l'
+          className='link dim black hover-dark-gray f5 dib mr3 mr4-l'
           to={ROUTES.LANDING}
         >
           Home
         </Link>
         <Link
-          className='link dim black hover-dark-gray f6 f5-l dib mr3 mr4-l'
+          className='link dim black hover-dark-gray f5 dib mr3 mr4-l'
           to={ROUTES.EXPERIENCE}
         >
           Experience
         </Link>
         <Link
-          className='link dim black hover-dark-gray f6 f5-l dib mr3 mr4-l'
+          className='link dim black hover-dark-gray f5 dib mr3 mr4-l'
           to={ROUTES.PROJECTS}
         >
           Projects
         </Link>
         <Link
-          className='link dim black hover-dark-gray f6 f5-l dib mr3 mr4-l'
+          className='link dim black hover-dark-gray f5 dib mr3 mr4-l'
           to={ROUTES.CAMPAIGNS}
         >
           Campaigns
         </Link>
         <Link
-          className='link dim black hover-dark-gray f6 f5-l dib mr3 mr4-l'
+          className='link dim black hover-dark-gray f5 dib mr3 mr4-l'
           to={ROUTES.CONTACT}
         >
           Contact
         </Link>
       </div>
     </nav>
-  </header>
 );
 
 export default Navigation;
