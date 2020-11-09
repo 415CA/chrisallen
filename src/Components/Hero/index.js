@@ -9,7 +9,7 @@ const Hero = () => (
       <div className='dtc v-mid bg-black-70'>
         <h1 className='f1 f-headline-l fw1 white'>Chris Allen</h1>
         <h2 className='f2 fw1 white'>
-          Software Engineer
+          Full Stack Web Developer
         </h2>
         <HomepageTech />
         <Social color='#FFFFFF' size={50} />
