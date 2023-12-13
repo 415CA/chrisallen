@@ -12,8 +12,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.0",
-    "recompose": "^0.30.0",
+    "react-scripts": "^5.0.1",
+    "recompose": "^0.17.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.1",
     "slick-carousel": "^1.8.1",
@@ -21,7 +21,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "GENERATE_SOURCEMAP=false && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

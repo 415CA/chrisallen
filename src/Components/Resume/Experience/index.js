@@ -6,12 +6,14 @@ import Soundscapes from './Soundscapes';
 import Supergravity from './Supergravity';
 import TWC from './TWC';
 import Universal from './Universal';
+import Rightsline from './Rightsline'
 
 const Experience = () => (
   <>
     <div className='bg-white black-80 tc pv4 avenir'>
       <h1 className='mt2 mb0 helvetica i fw1 f1'>Professional Experience</h1>
     </div>
+    <Rightsline/>
     <APD />
     <Edge />
     <Universal />
