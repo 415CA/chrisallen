@@ -12,7 +12,7 @@ const Hero = () => (
           Project Management | Full Stack Web Development | Media Licensing | Advertising
         </h2>
         <HomepageTech />
-        <Social color='#FFFFFF' size={50} />
+        <Social color='#FFFFFF' size={51} />
       </div>
     </div>
   </div>
