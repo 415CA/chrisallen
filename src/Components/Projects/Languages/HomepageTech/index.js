@@ -11,89 +11,75 @@ import {
 } from '@icons-pack/react-simple-icons';
 import React from 'react';
 
+const iconComponents = {
+  Javascript: ({ color, size }) => (
+    <Javascript title='Javascript' color={color} size={size} />
+  ),
+  Ruby: ({ color, size }) => (
+    <Ruby title='Ruby' color={color} size={size} />
+  ),
+  Html5: ({ color, size }) => (
+    <Html5 title='Html5' color={color} size={size} />
+  ),
+  Css3: ({ color, size }) => (
+    <Css3 title='Css3' color={color} size={size} />
+  ),
+  ReactJs: ({ color, size }) => (
+    <ReactJs title='ReactJs' color={color} size={size} />
+  ),
+  Redux: ({ color, size }) => (
+    <Redux title='Redux' color={color} size={size} />
+  ),
+  Rubyonrails: ({ color, size }) => (
+    <Rubyonrails title='Rubyonrails' color={color} size={size} />
+  ),
+  NodeDotJs: ({ color, size }) => (
+    <NodeDotJs title='Nodejs' color={color} size={size} />
+  ),
+  Firebase: ({ color, size }) => (
+    <Firebase title='Firebase' color={color} size={size} />
+  ),
+  Postgresql: ({ color, size }) => (
+    <Postgresql title='Postgresql' color={color} size={size} />
+  ),
+  Sqlite: ({ color, size }) => (
+    <Sqlite title='Sqlite' color={color} size={size} />
+  ),
+};
+
+const iconData = [
+  { icon: 'Javascript', color: '#F7DF1E', text: 'JavaScript' },
+  { icon: 'Ruby', color: '#CC342D', text: 'Ruby' },
+  { icon: 'Html5', color: '#E34F26', text: 'HTML5' },
+  { icon: 'Css3', color: '#1572B6', text: 'CSS3' },
+  { icon: 'ReactJs', color: '#61DAFB', text: 'React JS' },
+  { icon: 'Redux', color: '#764ABC', text: 'Redux' },
+  { icon: 'Rubyonrails', color: '#CC0000', text: 'Rails' },
+  { icon: 'NodeDotJs', color: '#339933', text: 'Node.js' },
+  { icon: 'Firebase', color: '#FFCA28', text: 'Firebase' },
+  { icon: 'Postgresql', color: '#336791', text: 'PostgreSQL' },
+  { icon: 'Sqlite', color: '#003B57', text: 'SQLite' },
+];
+
 const HomepageTech = ({ color }) => {
   const textColor = color ? `ml0 ${color} w-100` : 'ml0 white w-100';
 
   return (
     <div className='mw9 center ph3-ns'>
       <div className='cf ph2-ns'>
-        <div className='dib pa1 tc'>
-          <Javascript title='Javascript' color='#F7DF1E' size={30} />
-          <dl className='mt2 f6 lh-copy'>
-            <dt className='clip'>Language</dt>
-            <dd className={textColor}>JavaScript</dd>
-          </dl>
-        </div>
-        <div className='dib pa2 tc'>
-          <Ruby title='Ruby' color='#CC342D' size={30} />
-          <dl className='mt2 f6 lh-copy'>
-            <dt className='clip'>Language</dt>
-            <dd className={textColor}>Ruby</dd>
-          </dl>
-        </div>
-        <div className='dib pa2 tc'>
-          <Html5 title='Html5' color='#E34F26' size={30} />
-          <dl className='mt2 f6 lh-copy'>
-            <dt className='clip'>Language</dt>
-            <dd className={textColor}>HTML5</dd>
-          </dl>
-        </div>
-        <div className='dib pa2 tc'>
-          <Css3 title='Css3' color='#1572B6' size={30} />
-          <dl className='mt2 f6 lh-copy'>
-            <dt className='clip'>Language</dt>
-            <dd className={textColor}>CSS3</dd>
-          </dl>
-        </div>
-        <div className='dib pa2 tc'>
-          <ReactJs title='ReactJs' color='#61DAFB' size={30} />
-          <dl className='mt2 f6 lh-copy'>
-            <dt className='clip'>Language</dt>
-            <dd className={textColor}>React JS</dd>
-          </dl>
-        </div>
-        <div className='dib pa2 tc'>
-          <Redux title='Redux' color='#764ABC' size={24} />
-          <dl className='mt2 f6 lh-copy'>
-            <dt className='clip'>Language</dt>
-            <dd className={textColor}>Redux</dd>
-          </dl>
-        </div>
-        <div className='dib pa2 tc'>
-          <Rubyonrails title='Rubyonrails' color='#CC0000' size={30} />
-          <dl className='mt2 f6 lh-copy'>
-            <dt className='clip'>Language</dt>
-            <dd className={textColor}>Rails</dd>
-          </dl>
-        </div>
-        <div className='dib pa2 tc'>
-          <NodeDotJs title='Nodejs' color='#339933' size={30} />
-          <dl className='mt2 f6 lh-copy'>
-            <dt className='clip'>Language</dt>
-            <dd className={textColor}>Node.js</dd>
-          </dl>
-        </div>
-        <div className='dib pa2 tc'>
-          <Firebase title='Firebase' color='#FFCA28' size={30} />
-          <dl className='mt2 f6 lh-copy'>
-            <dt className='clip'>Language</dt>
-            <dd className={textColor}>Firebase</dd>
-          </dl>
-        </div>
-        <div className='dib pa2 tc'>
-          <Postgresql title='Postgresql' color='#336791' size={30} />
-          <dl className='mt2 f6 lh-copy'>
-            <dt className='clip'>Language</dt>
-            <dd className={textColor}>PostgeSQL</dd>
-          </dl>
-        </div>
-        <div className='dib pa2 tc'>
-          <Sqlite title='Sqlite' color='#003B57' size={30} />
-          <dl className='mt2 f6 lh-copy'>
-            <dt className='clip'>Language</dt>
-            <dd className={textColor}>SQLite</dd>
-          </dl>
-        </div>
+        {iconData.map(({ icon, color, text }) => {
+          const IconComponent = iconComponents[icon];
+
+          return (
+            <div key={text} className='dib pa2 tc'>
+              <IconComponent color={color} size={30} />
+              <dl className='mt2 f6 lh-copy'>
+                <dt className='clip'>Language</dt>
+                <dd className={textColor}>{text}</dd>
+              </dl>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
